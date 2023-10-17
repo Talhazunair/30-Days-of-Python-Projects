@@ -1,0 +1,5 @@
+pip install pynput
+pip install smtplib
+pip install threading
+pip install platform
+pip install socket
