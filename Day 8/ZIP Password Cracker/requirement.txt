@@ -1,0 +1,2 @@
+pip install pyzipper
+pip install tqdm
