@@ -1,40 +1,69 @@
-Music Player
-A simple music player application using Python and Tkinter.
+# Music Player
 
-Table of Contents
-Introduction
-Installation
-Usage
-Features
-Screenshots
-Contributing
-License
-Introduction
-The Music Player is a basic application developed using Python and Tkinter. It allows users to play audio files, pause and resume playback, adjust volume, and load audio files from their system.
+A simple music player implemented in Python using the Tkinter GUI library.
 
-Installation
-Clone the repository:
+## Features
 
-(1)-git clone https://github.com/Talhazunair/music-player.git
+- Play and pause audio files.
+- Load audio files from the file menu.
+- Adjust volume using a slider.
+- Display album art thumbnail for loaded audio files.
+- Custom progress bar style.
+
+## Prerequisites
+
+Make sure you have the following Python libraries installed:
+
+- tkinter
+- pygame
+- mutagen
+- PIL (Pillow)
+
+You can install them using:
+
+```bash
+pip install tk pygame mutagen pillow
+```
+
+## How to Use
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/music-player.git
+```
+
+2. Navigate to the project directory:
+
+```bash
 cd music-player
-Install required dependencies:
+```
 
-(2)-pip install pygame pillow mutagen
-Run the application:
+3. Run the application:
 
-(3)-python main.py
-Usage
-Upon running the application, the main window of the music player will appear. Users can load audio files using the "File" menu, play and pause audio playback using the play/pause button, adjust the volume using the volume slider, and see the progress of the currently playing track using the progress bar.
+```bash
+python main.py
+```
 
-Features
-Play and pause audio playback
-Load audio files from the system
-Adjust volume using a slider
-Display album thumbnail (if available in the audio file)
-Show progress of the currently playing track
+4. Load an audio file using the "File" menu.
 
-Contributing
-Contributions are welcome! If you find any issues or want to enhance the functionality of the application, feel free to open an issue or submit a pull request.
+5. Use the play/pause button to control playback.
 
-License
-This project is licensed under the MIT License.
+6. Adjust the volume using the slider.
+
+## Screenshots
+
+Include screenshots or GIFs demonstrating the usage of your music player.
+
+## Folder Structure
+
+- `Images`: Contains logo, button, and default thumbnail images.
+- `main.py`: Main Python script containing the music player implementation.
+
+## Contributing
+
+Feel free to contribute to the project by opening issues or submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
