@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/CSS/style.css')}}">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Text To Speech</h1>
+    </div>
+    <!-- <div class="text">
+        <textarea name="" id="text-place" cols="30" rows="10"></textarea>
+    </div>
+    <div class="container2">
+        <button>Speak</button> -->
+    </div>
+    <form action={{url_for ('Speak')}} method="POST">
+        <textarea name="text" id="text-place" cols="30" rows="10"></textarea>
+        <button type="submit">Speak</button>
+    </form>
+</body>
+</html>
