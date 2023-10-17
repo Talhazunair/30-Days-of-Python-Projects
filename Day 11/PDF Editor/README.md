@@ -51,14 +51,6 @@ This is a simple PDF editor application built using the Tkinter library in Pytho
 2. Use the provided buttons to perform the desired operation.
 3. Follow the on-screen prompts and dialogs to select files and save the results.
 
-## Screenshots
-
-![Merge PDF](/Images/Merger.png)
-
-![Image To PDF](/Images/Image_to_pdf.png)
-
-![Text Extractor](/Images/PDF-to-Text.png)
-
 ## Notes
 
 - Make sure to have the required dependencies installed before running the application.
